@@ -1,9 +1,15 @@
-import React from 'react'
+import {Quote} from "../Components/Quote"
 
-const Signup = () => {
-  return (
-    <div>Signup</div>
-  )
+
+export const Signup = () => {
+    return <div>
+        <div className="grid grid-cols-1 lg:grid-cols-2">
+            <div>
+               
+            </div>
+            <div className="hidden lg:block">
+     <Quote/>
+            </div>
+        </div>
+    </div>
 }
-
-export default Signup
